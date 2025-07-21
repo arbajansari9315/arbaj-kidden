@@ -1,0 +1,874 @@
+.logo-img {
+  left: 40px;
+  position: relative;
+  height: auto;
+  width: 31%;
+}
+.navbar-nav li {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.navbar ul li a:hover {
+  color: #f15f25;
+}
+
+.nav-btn a {
+  top: 17px;
+  font-weight: 700;
+  color: #fff;
+  padding: 16px 25px;
+  line-height: 45px;
+  font-size: 14px;
+  display: ruby-text;
+  right: 45px;
+  position: relative;
+  background: #f15f25;
+}
+#para {
+  color: #5f5f5f;
+  position: relative;
+  top: 25px;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.footer {
+  font-weight: 500;
+  padding-top: 20px;
+ 
+  font-size: 0.9rem;
+  line-height: 1.8;
+ 
+}
+.site-info{
+    position: relative;
+    top: 90px;
+}
+.footer h5 {
+  color: #007bff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer ul li {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.footer ul li a {
+  color: #343434;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer ul li a:hover {
+  color: #f15f25;
+}
+
+.footer .border-top {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.footer h5 {
+  color: #343434;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.follow-us-icon-container{
+    margin: 7px;
+    display: inline;
+    top: 51px;
+    right: 213%;
+    border-radius: 11px;
+    font-size: 34px;
+    position: relative;
+    background:#f0efec;
+}
+.follow-us-icon-container i{
+    font-weight: 800;
+    font-size: 28px;
+    position: relative;
+    margin-left: 4px;
+}
+.ri-youtube-line{
+    margin: 7px;
+}
+
+.footer-copyright {
+  background-image: url("https://wp.dynamiclayers.net/kidden/wp-content/themes/kidden/assets/img/footer-background.png"); /* Replace with your image URL */
+     background-position: bottom center;
+    background-size: contain;
+   width: 100%;
+   height: 158px;
+  padding: 30px 0;
+
+  z-index: 1;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.footer-copyright::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.footer-copyright p {
+  margin-bottom: 0;
+}
+
+.num-mail {
+  color: #5f5f5f;
+}
+
+.lable {
+  color: #f15f25;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.form-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #5f5f5f;
+}
+.animal-tree {
+  text-align: center;
+}
+.heading-tree {
+  font-weight: 700;
+  display: inline-flex;
+  font-family: "Dosis", Sans-serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  color: #f15f25;
+  margin: 0px 0px 10px 0px;
+}
+.kid-ani {
+  font-size: 62px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 66px;
+  letter-spacing: 0px;
+  color: #343434;
+}
+
+.input-group input{
+  
+ 
+ 
+  border: none;
+
+}
+.input-group{
+        position: relative;
+    display: flex
+;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 73%;
+}
+
+.arrow {
+  
+  background-color: #f15f25;
+  background-image: url(https://wp.dynamiclayers.net/kidden/wp-content/plugins/kidden-core/assets/img/send.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+ 
+  width: 70px;
+  height: 50px;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  text-indent: 9999px;
+  transform: translateY(-50%);
+}
+#arrow-mail{
+    border: none;
+    padding: 8px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    background: #f0efec;
+      border-radius: 15px 15px 15px 15px;
+}
+
+
+.article-thumb {
+  border-radius: 15px 15px 15px 15px;
+  overflow: hidden;
+}
+
+.article-inner {
+  display: block;
+  overflow: hidden;
+  height: 270px;
+}
+
+.article-inner img {
+  border-radius: 30px;
+  position: relative;
+  left: 6%;
+  width: 90%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+.article-post {
+   
+  background-color: var(--kidden-bg-white, #fff);
+  padding: 30px;
+  margin: -80px 20px 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 15px 15px 15px 15px;
+  bottom: 34px;
+  left: 6%;
+  width: 75%;
+}
+.article-para {
+  font-family: "Dosis", Sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 32px;
+}
+.article-data li a {
+  text-decoration: none;
+  font-family: "Dosis", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #5f5f5f;
+}
+.article-data {
+        display: ruby-text;
+    padding: 0px;
+}
+.kid-artical .article-data li {
+  display: inline-block;
+  font-family: var(--kidden-primary-font, "Syne");
+}
+.article-container .article-thumb .article-btn {
+    bottom: 249px;
+    left: 59%;
+    position: relative;
+    text-decoration: none;
+    color: #343434;
+    background-color: #f15f25;
+    line-height: 1;
+    padding: 10px 20px;
+    letter-spacing: 0.5px;
+    font-family: "Dosis", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.article-post .read-more {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #000000;
+
+  line-height: 1;
+
+  margin: 15px 0 0;
+  position: relative;
+  text-decoration: none;
+}
+.kid-artical .article-post .read-more {
+  font-family: "Dosis", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.read-more :hover {
+  color: #f15f25;
+}
+.kid-artical {
+  position: relative;
+  left: 6%;
+}
+
+
+
+#animal-img1 {
+  top: auto;
+  left: -3%;
+  width: 23%;
+  position: absolute;
+}
+
+#tree-img {
+ bottom: auto;
+  position: absolute;
+  left: 81%;
+}
+
+.train-btn a {
+  background-color: #f15f25;
+  font-family: "Dosis", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 16px;
+  letter-spacing: 0px;
+  padding: 17px 30px 14px 30px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #f9b001;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.hours {
+  position: absolute;
+}
+
+.hours img {
+  top: 87px;
+
+  position: relative;
+
+  left: 7%;
+}
+.Train {
+  position: absolute;
+}
+
+.Train img {
+  top: 92px;
+
+  position: relative;
+
+  left: 299%;
+}
+.green-img{
+    position: relative;
+    bottom: -43px;
+}
+.train-title {
+    font-weight: 700;
+  display: inline-flex;
+  font-family: "Dosis", Sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  color: #f15f25;
+  margin: 0px 0px 10px 0px;
+}
+.train-heading {
+  font-size: 62px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 66px;
+  letter-spacing: 0px;
+}
+
+.animal-tree {
+  padding: 30px;
+}
+
+.banner-section-bg-container {
+  background-image: url(https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/cta-background.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.home-banner-section-bg-container {
+  background-image: url(https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/pattern-1.png);
+  height: 100vh;
+  background-size: cover;
+      background-color: #FFE39F;
+   
+    background-position: center center;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+.home-banner-title{
+    display: flex;
+    font-weight: 700;
+    font-family: "Dosis", Sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    color: #F15F25;
+    margin: 0px 0px 10px 0px;
+}
+.home-banner-heading{
+        font-size: 68px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 72px;
+    letter-spacing: 0px;
+}
+.home-text-center{
+    position: relative;
+    top: 16%;
+    width: 49%;
+    padding: 12px;
+    margin: 12px;
+    text-align: left;
+}
+.home-btn a{
+    position: absolute;
+    bottom: 200px;
+    margin-left: 4%;
+    background-color: #f15f25;
+    font-family: "Dosis", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 16px;
+    letter-spacing: 0px;
+    padding: 17px 30px 14px 30px;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #f9b001;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.home-btn{
+        position: relative;
+    bottom: 186%;
+}
+
+.home-banner-desc{
+        font-family: "Dosis", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #5F5F5F;
+}
+.banner-hero-boy img{
+    height: 100%;
+    position: relative;
+    width: 350px;
+    left: 52%;
+   
+}
+.banner-hero-boy{
+    position: relative;
+    bottom: 50%;
+}
+.banner-hero-girl{
+    position: relative;
+    bottom: 148%;
+}
+
+.banner-hero-girl img{
+    height: 100%;
+    position: relative;
+    width: 340px;
+    left: 66%;
+    }
+.badal{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    bottom: 196%;
+}    
+
+.yellow{
+    left: 64%;
+    position: absolute;
+}
+
+
+.yellow img{
+    width: 530px;
+    position: relative; 
+    bottom: 246px;
+}
+
+
+.start{
+    left: 52%;
+    position: absolute;
+    top: 59%;
+   
+    object-fit: cover;
+    object-position: center;
+}
+
+.start img{
+    width: 108px;
+}
+
+.zeraf-banner-section-bg-container{
+   
+      height: 100vh;
+  background-size: cover;
+}
+
+.zeraf-banner-title{
+    display: flex;
+    font-weight: 700;
+    font-family: "Dosis", Sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    color: #F15F25;
+    margin: 0px 
+   0px 10px 0px;
+}
+.zeraf-banner-heading{
+        font-size: 54px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 72px;
+    letter-spacing: 0px;
+}
+.zeraf-text-center{
+    position: relative;
+    top: 15%;
+    width: 49%;
+    text-align: left;
+    left: 47%;
+}
+
+.zeraf-banner-desc{
+font-family: "Dosis", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #5F5F5F;
+}
+.zeraf-btn a{
+    position: absolute;
+    
+    background-color: #F15F25;
+    font-family: "Dosis", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 16px;
+    letter-spacing: 0px;
+    padding: 17px 30px 14px 30px;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+    border-color: #F9B001;
+    border-radius: 10px 10px 10px 10px;
+    color: #f0efec;
+}
+ .zeraf-btn{
+    top: 74px;
+    width: 80%;
+    position: relative;
+    
+    margin-left: 0px;
+ }
+ .zebra-icon-box{
+    
+    top: 84px;
+    position: relative;
+    left: 33%;
+    
+   
+
+ }
+.zebra-mob{
+        color: #F9B001;
+    font-family: "Dosis", Sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.zebra-book{
+line-height: 1px;
+    font-family: "Dosis", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #343434;
+}
+
+.zebra-icon{
+        fill: #F15F25;
+    color: #F15F25;
+    border-color: #F15F25;
+    font-size: 40px;
+}
+.zebra-icon i{
+        display: block;
+    height: 1em;
+    position: relative;
+    width: 1em;
+}
+
+.zebra-last-container{
+    position: relative;
+    left: 65%;
+    bottom: 160%;
+
+}
+.zebra-contents{
+    margin-left: 33px;
+    bottom: 65px;
+    position: relative;
+   
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+.zebra-contents h3{
+    font-family: "Dosis", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #343434;
+   
+   
+}
+  
+.zebra-container{
+   position: relative;
+   bottom: 63%;
+}
+
+#zebra-girl{
+    position: relative;
+    bottom: 50%;
+    left: 38px;
+    width: 380px;
+}
+
+#zeraf{
+    width: 160px;
+   right: 14%;
+    top:  44px;
+    position: relative;
+    
+}
+
+#cap{
+    width: 100px;
+    position: relative;
+    bottom: 102px;
+    right: 39%;
+}
+#tv{
+    width: 70px;
+    position: relative;
+    bottom: 167%;
+    right: 51%;
+}
+#ink{
+    width: 50px;
+    position: relative;
+    top: 74px;
+    right: 51%;
+}
+
+#monky{
+        width: 159px;
+    position: absolute;
+    left: 87%;
+    padding-top: 26px;
+}
+.monky-container{
+    position: relative;
+    background-color: #F0EFEC;
+}
+
+.monky-post{
+    background-image: url(https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/service-bg.png);
+      padding: 30px;
+  margin: -80px 20px 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 15px 15px 15px 15px;
+  bottom: 34px;
+  left: 6%;
+  width: 75%;
+
+}
+
+#black-cat{
+    width: 262px;
+     bottom: auto;
+  position: absolute;
+  left: 81%;
+
+}
+.article2-btn{
+    bottom: 249px;
+    left: 59%;
+    position: relative;
+    text-decoration: none;
+    color: #343434;
+    background-color: #a5be25;
+    line-height: 1;
+    padding: 10px 20px;
+    letter-spacing: 0.5px;
+    font-family: "Dosis", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 10px 10px 10px 10px;
+}
+.article-month{
+        background-color: #F15F25;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 15px;
+
+}
+.article-day{
+        background-color: #F9B001;
+    color: #FFFFFF;
+        font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 5px 15px 8px;
+
+}
+.article2-month-day{
+        display: flex
+;
+    flex-direction: column;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: -21px;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+.article2-price{
+        font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #F15F25;
+    margin-bottom: 10px;
+}
+.article2-venue{
+        color: #343434;
+    margin-top: 15px;
+        font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+}
+.article2-venue span{
+    color: #F15F25;
+}
+
+.teachers-card{
+    top: -4px;
+    border-radius: 22px;
+    left: 18px;
+    width: 90%;
+        background-color: #02010100;
+    background-image: url(https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/service-bg.png);
+    text-align: center;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px 30px 0px;
+    margin: -35px 0px 0px 0px;
+    z-index: 2;
+    position: relative;
+}
+.teachers-card h3{
+        font-family: "Dosis", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    color: #343434;
+}
+.teachers-card h4{
+    font-family: "Dosis", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    color: #F15F25;
+    margin: 10px 0px 0px 0px;
+}
+.article-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 9px;
+}
+.article2-item{
+    width: 299px;
+    padding-bottom: 42px;
+}
+
+#school-boy{
+    position: relative;
+   
+    left: 38px;
+    width: 400px;
+
+}
+#alligator{
+    width: 200px;
+    right: 14%;
+    
+    position: relative;
+}
+
+#snake{
+        width: 320px;
+        
+        position: absolute;
+       right: 1px;
+}
+
+ul {
+      list-style-type: none; /* Removes the bullet */
+      padding-left: 0;       /* Optional: removes default left padding */
+    }
+
+
+.alligator-container{
+   position: relative;
+   bottom: 155px;
+}
+
+.monky2-post{
+    text-align: center;
+    background-image: url(https://wp.dynamiclayers.net/kidden/wp-content/uploads/sites/32/2024/08/service-bg.png);
+      padding: 55px;
+  margin: -80px 20px 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 15px 15px 15px 15px;
+  bottom: 34px;
+  left: 6%;
+  width: 75%;
+
+}
+.monky2-post i{
+        background-color: #F15F25;
+    font-size: 25px;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+    border-radius: 15px 15px 15px 15px;
+}
